@@ -94,7 +94,7 @@ function (qlik) {
 					type: "items",
 					items: {
 						authorText: {
-							label: "by Christof Schwarz",
+							label: "by Gleb Vazhenin",
 							component: "text"
 						}
 					}
