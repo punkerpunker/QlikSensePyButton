@@ -1,0 +1,8 @@
+2020-04-04 17:38:01,858 - INFO - __main__ : 35 - Logging enabled
+2020-04-04 17:38:01,879 - INFO - __main__ : 104 - *** Running server in insecure mode on port: 50056 ***
+2020-04-04 17:45:28,792 - INFO - __main__ : 51 - GetCapabilities
+2020-04-04 17:46:24,608 - INFO - scripteval : 34 - EvaluateScript: qResult = multiply(2,2) (ArgType.Empty ReturnType.Numeric) FunctionType.Tensor
+2020-04-04 17:46:24,611 - DEBUG - scripteval : 227 - Received data frame (q): Empty DataFrame
+Columns: []
+Index: []
+2020-04-04 17:46:24,611 - DEBUG - scripteval : 235 - Result (qResult): 4

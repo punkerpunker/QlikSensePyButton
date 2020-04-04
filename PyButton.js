@@ -121,7 +121,7 @@ function (qlik) {
 			function(event){					
 				app.createGenericObject({
 					sse_reply: {
-						  qStringExpression: "qResult = 'ScriptPandas.ScriptEval('qResult = "+layout.function_name+"("+layout.args+")')'"
+						  qStringExpression: "ScriptPandas.ScriptEval('qResult = "+layout.function_name+"("+layout.args+")')"
 						}
 					}, 
 				function ( reply ) {
